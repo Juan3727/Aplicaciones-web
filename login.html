@@ -3,13 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Ingresar</title>
 </head>
+<!----- Navbar---->
+<div class="navdar" style="background-image: url('./Elementos/D_NQ_NP_988449-MLA51577257247_092022-O.webp')">
+<header>
+    <ul>
+        <li> <a href="./home.html" >Home</a> </li>
+        <li> <a href="./login.html" >Ingresar</a> </li>
+        <li> <a href="./registro.html" >Registrarse</a> </li> 
+        <li> <a href="./Elementos/computadora.png" >Icono</a> </li>
+    </ul>
+</div>
+</header>
 <body>
- <h1>Iniciar sesión</h1>
+ <div class="h2">
+ <h2>Iniciar sesión</h2>
+ </div>
 
  <form action="" method="post">
-    <div>
+    <div class="login">
         <label for="txtEmail">
             <b>Email:</b>
          </label>
@@ -17,78 +31,18 @@
          <input type="email" id="txtEmail" name="txtEmail" required>
          <br><br>
          <label for="txtPass">
-          <b>Contraseña:</b>
+            <b>Contraseña:</b>
          </label>
          <br>
          <input type="password" id="txtPass" name="txtPass" required>
-      </div>
-      <div>
         <br><br>
-        <input type="submit" value="Entrar">
-      </div>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registrarse</title>
-</head>
-<body>
-    <h1>Registrarse</h1>
-
-    <form action="" method="post">
-        <div>
-            <label for="txtNombre">
-                <b>Nombre:</b>
-            </label>
-            <br>
-            <input type="text" id="txtNombre" name="txtNombre" class="" placeholder="Ingrese su nombre" required>
-            <br><br>
-            <label for="txtApellido">
-                <b>Apellido:</b>
-            </label>
-            <br>
-            <input type="text" id="txtApellido" name="txtApellido" class="" placeholder="Ingrese su apellido" required>
-         <div>
-
-        </div>
-           <br><br>
-           <label for="txtEmail">
-              <b>Email:</b>
-           </label>
-           <br>
-           <input type="email" id="txtEmail" name="txtEmail" required>
-           <br><br>
-           <label for="txtPass">
-            <b>Contraseña:</b>
-           </label>
-           <br>
-           <input type="password" id="txtPass" name="txtPass" required>
-        </div>
-
-        <div>
-            <br><br>
-            <label for="date">
-                <b>Fecha de nacimiento:</b>
-            </label>
-            <br>
-            <input type="date" name="date" id="date" required>
-        </div>
-
-        <div>
-            <br><br>
-            <input type="submit" value="Confirmar">
-        </div>
-    </form>
-
-<!----- Navbar---->
- <header>
-    <ul>
-        <li> <a href="./home.html" >Home</a> </li>
-        <li> <a href="./login.html" >Ingresa o Registrate</a> </li>
-        <li> <a href="./Elementos/computadora.png" >Icono</a> </li>
-    </ul>
-  </header>
+        <button class="boton">Entrar</button> 
+    </div>
+    <br><br><br><br><br><br><br><br><br><br>
+    <div class="footer" style="background-image: url('./Elementos/D_NQ_NP_988449-MLA51577257247_092022-O.webp')">
+<footer>
+     Juan WEB &copy; 2024
+</footer>
+</div>
 </body>
 </html>
