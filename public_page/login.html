@@ -3,27 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="../Styles/styles.css">
     <title>Ingresar</title>
 </head>
-<!----- Navbar---->
-<div class="navdar" style="background-image: url('./Elementos/D_NQ_NP_988449-MLA51577257247_092022-O.webp')">
-<header>
-    <ul>
-        <li> <a href="./home.html" >Home</a> </li>
-        <li> <a href="./login.html" >Ingresar</a> </li>
-        <li> <a href="./registro.html" >Registrarse</a> </li> 
-        <li> <a href="./Elementos/computadora.png" >Icono</a> </li>
-    </ul>
-</div>
-</header>
 <body>
+<!----- Navbar---->
+<div class="navdar" style="background-image: url('../Elementos/D_NQ_NP_988449-MLA51577257247_092022-O.webp')">
+    <header>
+        <ul>
+            <li> <a href="./home.html" >Home</a> </li>
+            <li> <a href="./login.html" >Ingresar</a> </li>
+            <li> <a href="./registro.html" >Registrarse</a> </li> 
+        </ul>
+   </header>
+</div>
+
  <div class="h2">
  <h2>Iniciar sesión</h2>
  </div>
 
- <form action="" method="post">
+ <form id="loginForm">
     <div class="login">
+        <div>
         <label for="txtEmail">
             <b>Email:</b>
          </label>
@@ -37,12 +38,14 @@
          <input type="password" id="txtPass" name="txtPass" required>
         <br><br>
         <button class="boton">Entrar</button> 
+       </div>
     </div>
     <br><br><br><br><br><br><br><br><br><br>
-    <div class="footer" style="background-image: url('./Elementos/D_NQ_NP_988449-MLA51577257247_092022-O.webp')">
+    <div class="footer" style="background-image: url('../Elementos/D_NQ_NP_988449-MLA51577257247_092022-O.webp')">
 <footer>
      Juan WEB &copy; 2024
 </footer>
 </div>
+<script src="../login.js"></script>
 </body>
 </html>

@@ -1,0 +1,29 @@
+.navdar{
+	height: 30px;
+	padding: 10px;
+	text-align: center;
+	border-radius: 10px;
+    font-weight: bolder;	
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+}
+
+.navdar li a{
+	color:rgb(224, 85, 85);
+}
+
+.navdar li a:hover{
+	color: beige;
+	transition: all ease-in-out 0.2s;
+}
+
+
+header ul li {
+	float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+}

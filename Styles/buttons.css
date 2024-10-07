@@ -1,0 +1,30 @@
+.boton{
+	height: 30px;
+	width: 100px;
+	color: beige;
+	background-color: rgb(224, 85, 85);
+	border: rgb(224, 85, 85);
+	border-radius: 15px;
+	font-weight: bolder;
+}
+
+.boton:hover{
+    background-color: rgb(21, 112, 41);
+	transition: all ease-in-out 0.5s;
+}
+.boton2{
+	height: 60px;
+	width: 30%;
+	text-align: center;
+	padding: 10px;
+	color: beige;
+	background-color: rgb(224, 85, 85);
+	border: rgb(224, 96, 96);
+	border-radius: 100px;
+	font-weight: bolder;
+}
+
+.boton2:hover{
+	background-color: rgb(187, 165, 165);
+	transition: all ease-in-out 0.5s;
+}

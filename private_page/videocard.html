@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../Styles/styles.css">
+    <title>Tarjetas Gráficas</title>
+</head>
+<body>
+<!----- Navbar---->
+<header>
+    <div class="navdar" style="background-image: url('../Elementos/D_NQ_NP_988449-MLA51577257247_092022-O.webp')">
+    <ul>
+        <li> <a href="../public_page/home.html" >Home</a> </li>
+        <li> <a href="./processors.html" >Procesadores</a> </li>
+        <li> <a href="./videocard.html" >Tarjetas Gráficas</a> </li>
+        <li> <a href="./ram.html" >Memorias Ram</a> </li>
+        <li><a href="#" id="logoutButton">Cerrar Sesión</a></li>
+    </ul>
+</header>    
+</div>
+<br>
+<div class="h3">
+    <h3>Tarjetas Gráficas</h3>
+</div>
+<br>
+<div class="contenedor">
+    <div class="contenedor-elementos">
+      <div class="texto">
+      <h3>Tarjeta grafica ASUS GEFORCE RTX 4070</h3>
+      </div>
+      <br>
+      <img src="../Elementos/AsusGeForceRTX4070.webp" height="200" width="200">
+      <div class="texto">
+      <p>Precio = 1.100.000$</p>
+      </div>
+      <br>
+      <button class="boton2">Comprar o añadir al carrito</button>
+      </div>
+      <br>
+       <div class="texto">
+        <h3>Tarjeta grafica NVIDIA GEFORCE GTX 1050ti</h3>
+        </div>
+        <br>
+        <img src="../Elementos/NvidiaGeForce1050ti.jpg" height="200" width="200">
+        <div class="texto">
+        <p>Precio = 360.000$</p>
+        </div>
+        <br>
+        <button class="boton2">Comprar o añadir al carrito</button>
+    </div>
+<br><br>
+
+<div class="footer" style="background-image: url('../Elementos/D_NQ_NP_988449-MLA51577257247_092022-O.webp')">
+<footer>
+    Juan WEB &copy; 2024
+</footer>
+</div>
+<script type="module" src="./index.js"></script>
+<script>
+   document.getElementById('logoutButton').addEventListener('click', function(event) {
+   event.preventDefault(); 
+   localStorage.removeItem('userToken'); 
+   window.location.href = '../public_page/login.html'; 
+ });
+</script>
+</body>
+</html>
