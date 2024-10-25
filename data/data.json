@@ -1,0 +1,56 @@
+   [
+      {
+         "categoria": "Procesadores",
+         "productos": [
+      {
+         "nombre": "Intel Core i7 14th Gen",
+         "imagen": "../Elementos/Intelcorei714thgen.webp",
+         "precio": 850000,
+         "cantidad": 200
+         
+      },
+      {
+         "nombre": "Intel Core i9 12th Gen",
+         "imagen": "../Elementos/Intelcorei912thgen.webp",
+         "precio": 580000,
+         "cantidad": 101
+      }
+      ]
+      },
+
+      {
+         "categoria": "Memorias Ram",
+         "productos": [   
+      {
+         "nombre": "Memoria ram hyperx 8gb ddr4",
+         "imagen": "../Elementos/Ramhyperx8gb.webp",
+         "precio": 35000,
+         "cantidad": 355
+      },
+      {
+         "nombre": "Memoria ram hyperx 16gb ddr4",
+         "imagen": "../Elementos/Ramhyperx16gb.jpg",
+         "precio": 57000,
+         "cantidad": 24
+      }
+      ]
+      },
+
+      {
+         "categoria": "Tarjetas Gráficas",
+         "productos": [
+      {
+        "nombre": "Tarjeta grafica ASUS GEFORCE RTX 4070",
+        "imagen": "../Elementos/AsusGeForceRTX4070.webp",
+        "precio": 1100000,
+         "cantidad": 89
+      }, 
+      {
+        "nombre": "Tarjeta grafica NVIDIA GEFORCE GTX 1050ti",
+        "imagen": "../Elementos/NvidiaGeForce1050ti.jpg",
+        "precio": 360000,
+        "cantidad": 3
+      }
+      ]
+      }
+]

@@ -36,6 +36,7 @@ export const CardElement = ({ titulo, descripcion, imagen, precio }) => {
                     <span>{cantidad}</span>
                     <button onClick={aumentarCantidad}>+</button>
                 </div>
+                <button className="boton2">Comprar o añadir al carrito</button>
             </div>
         </div>
     );

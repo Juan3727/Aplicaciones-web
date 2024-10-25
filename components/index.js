@@ -2,11 +2,11 @@ const url = "";
 
 const navElements = [
   {title:'Rapigamer', link: `${url}home.html`},
-  {title:'Ingresar', link:  `${url}login.html`},
+  {title:'Ingresar', link: `${url}login.html`},
   {title:'Registrarse', link: `${url}registro.html`},
-  {title:'Procesadores', link:  `${url}processors.html`},
-  {title:'Memorias Ram', link:  `${url}ram.html`},
-  {title:'Tarjetas Gráficas', link:  `${url}videocard.html`}
+  {title:'Procesadores', link: `${url}processors.html`},
+  {title:'Memorias Ram', link: `${url}ram.html`},
+  {title:'Tarjetas Gráficas', link: `${url}videocard.html`}
   ]
 
   export const navBarComponent = `
@@ -36,6 +36,7 @@ const navElements = [
 let navContainer = document.querySelector('header');
 let pageName = document.getElementById('pageName').value
 let title = document.getElementById('title')
+document.getElementById('navbar').innerHTML = navBarComponent;
 
 
 window.addEventListener('load', () => {
