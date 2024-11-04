@@ -1,55 +1,55 @@
-   [
+ [
       {
-         "categoria": "Procesadores",
+         "categoria": "productos",
          "productos": [
       {
-         "nombre": "Intel Core i7 14th Gen",
+         "titulo": "Intel Core i7 14th Gen",
          "imagen": "../Elementos/Intelcorei714thgen.webp",
          "precio": 850000,
-         "cantidad": 200
+         "descripción": "Procesadores"
          
       },
       {
-         "nombre": "Intel Core i9 12th Gen",
+         "titulo": "Intel Core i9 12th Gen",
          "imagen": "../Elementos/Intelcorei912thgen.webp",
          "precio": 580000,
-         "cantidad": 101
+         "descripciónm": "Procesadores"
       }
       ]
       },
 
       {
-         "categoria": "Memorias Ram",
+         "categoria": "productos",
          "productos": [   
       {
-         "nombre": "Memoria ram hyperx 8gb ddr4",
+         "titulo": "Memoria ram hyperx 8gb ddr4",
          "imagen": "../Elementos/Ramhyperx8gb.webp",
          "precio": 35000,
-         "cantidad": 355
+         "Descripción": "Memorias Ram"
       },
       {
-         "nombre": "Memoria ram hyperx 16gb ddr4",
+         "titulo": "Memoria ram hyperx 16gb ddr4",
          "imagen": "../Elementos/Ramhyperx16gb.jpg",
          "precio": 57000,
-         "cantidad": 24
+         "Descripción": "Memorias Ram"
       }
       ]
       },
 
       {
-         "categoria": "Tarjetas Gráficas",
+         "categoria": "productos",
          "productos": [
       {
-        "nombre": "Tarjeta grafica ASUS GEFORCE RTX 4070",
+        "titulo": "Tarjeta grafica ASUS GEFORCE RTX 4070",
         "imagen": "../Elementos/AsusGeForceRTX4070.webp",
         "precio": 1100000,
-         "cantidad": 89
+        "descripción": "Tarjetas Gráficas"
       }, 
       {
-        "nombre": "Tarjeta grafica NVIDIA GEFORCE GTX 1050ti",
+        "titulo": "Tarjeta grafica NVIDIA GEFORCE GTX 1050ti",
         "imagen": "../Elementos/NvidiaGeForce1050ti.jpg",
         "precio": 360000,
-        "cantidad": 3
+        "descripción": "Tarjetas Gráficas"
       }
       ]
       }

@@ -28,3 +28,54 @@
 	background-color: rgb(187, 165, 165);
 	transition: all ease-in-out 0.5s;
 }
+
+.card-button {
+	color:rgb(224, 85, 85);
+	margin: 20px;
+	height: 30px;
+	border: 2px solid rgb(224, 85, 85);
+    padding: 10px;
+    width: fit-content;
+}
+
+.card-button input{
+	color:rgb(224, 85, 85);
+	text-align: center;
+	font-weight: bolder;
+}
+
+.btn-sum{
+	background-color: rgb(224, 85, 85);
+	color: beige;
+	font-weight: bolder;
+	height: 25px;
+	width: 25px;
+	border-radius: 100px;
+	
+}
+
+.btn-rest{
+	background-color: rgb(224, 85, 85);
+	color: beige;
+	font-weight: bolder;
+	height: 25px;
+	width: 25px;
+	border-radius: 100px;
+}
+
+.btn-add{
+	height: 60px;
+	width: 30%;
+	text-align: center;
+	padding: 10px;
+	color: beige;
+	background-color: rgb(224, 85, 85);
+	border: rgb(224, 96, 96);
+	border-radius: 100px;
+	font-weight: bolder;
+}
+
+.btn-add:hover{
+	background-color: rgb(187, 165, 165);
+	transition: all ease-in-out 0.5s;
+}

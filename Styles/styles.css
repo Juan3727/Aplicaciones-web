@@ -9,6 +9,7 @@
 @import url('ram.html');
 @import url('videocard.html');
 @import url('index.html');
+@import url('card.js');
 
 *{
 	margin: 0;

@@ -44,3 +44,30 @@ footer{
     line-height: 50px;
 }
 
+.card-title {
+	color: rgb(224, 85, 85);
+	font-weight: bolder;
+	padding: 10px;
+    border-radius: 5px;
+	text-decoration: underline;
+	margin-right: 20px;
+}
+
+.card-body {
+	color: rgb(224, 85, 85);
+	font-weight: bolder;
+	padding: 10px;
+    border-radius: 5px;
+	text-decoration: underline;
+	margin-right: 20px;
+}
+
+.card-price  {
+	color: rgb(224, 85, 85);
+	font-weight: bolder;
+	padding: 10px;
+    border-radius: 5px;
+	text-decoration: underline;
+	margin-right: 20px;
+}
+
