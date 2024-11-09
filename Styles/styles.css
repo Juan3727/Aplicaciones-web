@@ -10,7 +10,7 @@
 @import url('videocard.html');
 @import url('index.html');
 @import url('card.js');
-
+@import url('items.html');
 *{
 	margin: 0;
 	padding: 0;

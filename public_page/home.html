@@ -12,8 +12,8 @@
   <header>
       <ul>
           <li> <a href="./home.html" >Home</a> </li>
-          <li> <a href="./login.html" >Ingresar</a> </li>
           <li> <a href="./registro.html" >Registrarse</a> </li>
+          <li><a href="#" id="logoutButton">Cerrar Sesión</a></li>
       </ul>
   </header>  
 </div>
@@ -56,6 +56,13 @@
 </div>
 <script type="module" src="../components/index.js"></script>
 <script type="module" src="../components/card.js"></script>
+<script>
+  document.getElementById('logoutButton').addEventListener('click', function(event) {
+  event.preventDefault(); 
+  localStorage.removeItem('userToken'); 
+  window.location.href = '../public_page/login.html'; 
+});
+</script>
 </body>
 </html>
       

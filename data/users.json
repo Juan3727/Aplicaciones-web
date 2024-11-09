@@ -1,0 +1,32 @@
+[
+{
+    "name": "Juan",
+    "lastName": "Valenzuela",
+    "pass": "123456",
+    "email": "juan137@gmail.com"
+  },
+  {
+    "name": "Camilo",
+    "lastName": "Perez",
+    "pass": "camilo12",
+    "email": "camilo78@outlook.com"
+  },
+  {
+    "name": "Luxanna",
+    "lastName": "Demacia",
+    "pass": "190936",
+    "email": "lux_09@hotmail.com"
+  },
+  {
+    "name": "Valentina",
+    "lastName": "Brandalisi",
+    "pass": "crumblcookie",
+    "email": "valebran8@gmail.com"
+  },
+  {
+    "name": "Bautista",
+    "lastName": "Buteler",
+    "pass": "bauti790",
+    "email": "bautistabuteler@outlook.com"
+  }
+]
