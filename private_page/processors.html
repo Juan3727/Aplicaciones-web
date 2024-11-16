@@ -8,16 +8,18 @@
 </head>
 <body>
 <!----- Navbar---->
-<div class="navdar" style="background-image: url('../Elementos/D_NQ_NP_988449-MLA51577257247_092022-O.webp')">
-    <header>
+<header>
+    <div class="navdar" style="background-image: url('../Elementos/D_NQ_NP_988449-MLA51577257247_092022-O.webp')">
+        
     <ul>
-        <li> <a href="../public_page/home.html" >Home</a> </li>   
+        <li> <a href="../public_page/home.html" >Home</a> </li>
         <li> <a href="./processors.html" >Procesadores</a> </li>
         <li> <a href="./videocard.html" >Tarjetas Gráficas</a> </li>
         <li> <a href="./ram.html" >Memorias Ram</a> </li>
+        <li><a href="./items/items.html" >Tus compras</a></li>
         <li><a href="#" id="logoutButton">Cerrar Sesión</a></li>
     </ul>
-  </header>  
+</header>  
 </div>
 <br>
 <div class = "h3">
@@ -25,6 +27,7 @@
 </div>
 <br>
 <div id= "jsonContainer" class="contenedor">
+  <div class="contenedor-elementos">
 	<div class="texto">
 	<h3>Intel Core i9 12th Gen </h3>
 	</div>
@@ -37,26 +40,45 @@
     </div>
     <button class="boton2">Comprar o añadir al carrito</button>
     <br><br>
-     <div class="texto">
-      <h3>Intel Core i7 14th Gen </h3>
-      </div>
-      <br>
-      <img src="../Elementos/Intelcorei912thgen.webp" height="200" width="200">
-      <div class="texto">
-      <p>Precio = 580.000$</p>
-      </div>
-      <br>
-      <button class="boton2">Comprar o añadir al carrito</button>
-  </div>
+    <div class="texto">
+    <h3>Intel Core i7 14th Gen </h3>
+    </div>
+    <br>
+    <img src="../Elementos/Intelcorei912thgen.webp" height="200" width="200">
+    <div class="texto">
+    <p>Precio = 580.000$</p>
+    </div>
+    <br>
+    <button class="boton2">Comprar o añadir al carrito</button>
+    <br><br>
+    <div class="texto">
+    <h3>Intel Core i5 14th Gen </h3>
+    </div>
+    <br>
+    <img src="../Elementos/intel_bx8071514400_ic_i5_14400_desktop_processor10_1802185.jpg" height="200" width="200">
+    <div class="texto">
+    <p>Precio = 360.000$</p>
+    </div>
+    <br>
+    <button class="boton2">Comprar o añadir al carrito</button>
+    <br><br>
+    <div class="texto">
+    <h3>Intel Celeron N4020 </h3>
+    </div>
+    <br>
+    <img src="../Elementos/N4020-lg__99930.jpg" height="200" width="200">
+    <div class="texto">
+    <p>Precio = 40.000$</p>
+    </div>
+    <br>
+    <button class="boton2">Comprar o añadir al carrito</button>
 <br><br>
 <div class="footer" style="background-image: url('../Elementos/D_NQ_NP_988449-MLA51577257247_092022-O.webp')">
 <footer>
     Juan WEB &copy; 2024
 </footer>
 </div>
-<script
-   type="module" src="../index.js">
-</script>
+
 <script>
    document.getElementById('logoutButton').addEventListener('click', function(event) {
    event.preventDefault(); 

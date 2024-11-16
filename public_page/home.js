@@ -8,8 +8,7 @@ const logOut = (key)=>{
 }
 
 window.addEventListener('load', ()=>{
-
-    /*Obtener la data desde sessionStorage */
+    
     const userInfo = getUserData('userData')
     console.log(userInfo)
     const userContainer = document.getElementById('userContainer')

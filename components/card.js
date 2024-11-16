@@ -38,6 +38,24 @@ const productos = [
         descripcion: "Procesador de Gama Alta"
     },
     {
+        titulo: "Intel Core i5 14th Gen",
+        imagen: "../Elementos/intel_bx8071514400_ic_i5_14400_desktop_processor10_1802185.jpg",
+        precio: 360000,
+        descripcion: "Procesador de Gama Media"
+    },
+    {
+        titulo: "Intel Core Celeron N4020",
+        imagen: "../Elementos/N4020-lg__99930.jpg",
+        precio: 40000,
+        descripcion: "Procesador de Gama Baja"
+    },
+    {
+        titulo: "Memoria ram Samsung 4gb ddr3",
+        imagen: "../Elementos/D_NQ_NP_722505-MLU78312810518_082024-O.webp",
+        precio: 20000,
+        descripcion: "Memoria Ram"
+    },
+    {
         titulo: "Memoria ram hyperx 8gb ddr4",
         imagen: "../Elementos/Ramhyperx8gb.webp",
         precio: 35000,
@@ -60,6 +78,12 @@ const productos = [
         imagen: "../Elementos/NvidiaGeForce1050ti.jpg",
         precio: 360000,
         descripcion: "Tarjeta Gráfica Económica"
+    },
+    {
+        titulo: "Tarjeta grafica MSI GEFORCE GTX 3060 ",
+        imagen: "../Elementos/600_750-811sBakp3_L._AC_SL1500_.jpg",
+        precio: 970000,
+        descripcion: "Tarjeta Gráfica Potente"
     }
 ];
 

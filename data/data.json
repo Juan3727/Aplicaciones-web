@@ -13,7 +13,19 @@
          "titulo": "Intel Core i9 12th Gen",
          "imagen": "../Elementos/Intelcorei912thgen.webp",
          "precio": 580000,
-         "descripciónm": "Procesadores"
+         "descripción": "Procesadores"
+      },
+      {
+         "titulo": "Intel Core i5 14th Gen",
+         "imagen": "../Elementos/intel_bx8071514400_ic_i5_14400_desktop_processor10_1802185.jpg",
+         "precio": 360000,
+         "descripción": "Procesadores"
+      },
+      {
+         "titulo": "Intel Core Celeron N4020",
+         "imagen": "../Elementos/N4020-lg__99930.jpg",
+         "precio": 40000,
+         "descripción": "Procesadores"
       }
       ]
       },
@@ -31,6 +43,12 @@
          "titulo": "Memoria ram hyperx 16gb ddr4",
          "imagen": "../Elementos/Ramhyperx16gb.jpg",
          "precio": 57000,
+         "Descripción": "Memorias Ram"
+      },
+      {
+         "titulo": "Memoria ram Samsung 4gb ddr3",
+         "imagen": "../Elementos/D_NQ_NP_722505-MLU78312810518_082024-O.webp",
+         "precio": 20000,
          "Descripción": "Memorias Ram"
       }
       ]
@@ -50,6 +68,12 @@
         "imagen": "../Elementos/NvidiaGeForce1050ti.jpg",
         "precio": 360000,
         "descripción": "Tarjetas Gráficas"
+      },
+      {
+         "titulo": "Tarjeta grafica MSI GEFORCE GTX 3060 ",
+         "imagen": "../Elementos/600_750-811sBakp3_L._AC_SL1500_.jpg",
+         "precio": 970000,
+         "descripción": "Tarjetas Gráficas"
       }
       ]
       }
