@@ -61,3 +61,4 @@ btnDelete.addEventListener('click', ()=>{
     items.splice(index,1)
     setData('itemsData', items)
 })
+

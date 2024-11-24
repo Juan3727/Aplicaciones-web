@@ -16,7 +16,6 @@
         <li> <a href="./processors.html" >Procesadores</a> </li>
         <li> <a href="./videocard.html" >Tarjetas Gráficas</a> </li>
         <li> <a href="./ram.html" >Memorias Ram</a> </li>
-        <li><a href="./items/items.html" >Tus compras</a></li>
         <li><a href="#" id="logoutButton">Cerrar Sesión</a></li>
     </ul>
 </header>  
@@ -35,10 +34,13 @@
     <img src="../Elementos/Intelcorei714thgen.webp" height="200" width="200">
     <div class="texto">
     <p> Precio = 850.000$ </p>
-	</div>
-    <br>
     </div>
-    <button class="boton2">Comprar o añadir al carrito</button>
+    <div class="card-button">
+    <button class="btn-rest">-</button>
+    <input type="number" value="1" min="1" class="quantity-input" />
+    <button class="btn-sum">+</button>
+    </div>
+    <button class="btn-add">Comprar o añadir al carrito</button>
     <br><br>
     <div class="texto">
     <h3>Intel Core i7 14th Gen </h3>
@@ -48,9 +50,14 @@
     <div class="texto">
     <p>Precio = 580.000$</p>
     </div>
+    <div class="card-button">
+    <button class="btn-rest">-</button>
+    <input type="number" value="1" min="1" class="quantity-input" />
+    <button class="btn-sum">+</button>
+    </div>
+    <button class="btn-add">Comprar o añadir al carrito</button>
+    </div>
     <br>
-    <button class="boton2">Comprar o añadir al carrito</button>
-    <br><br>
     <div class="texto">
     <h3>Intel Core i5 14th Gen </h3>
     </div>
@@ -59,8 +66,12 @@
     <div class="texto">
     <p>Precio = 360.000$</p>
     </div>
-    <br>
-    <button class="boton2">Comprar o añadir al carrito</button>
+    <div class="card-button">
+    <button class="btn-rest">-</button>
+    <input type="number" value="1" min="1" class="quantity-input" />
+    <button class="btn-sum">+</button>
+    </div>
+    <button class="btn-add">Comprar o añadir al carrito</button>
     <br><br>
     <div class="texto">
     <h3>Intel Celeron N4020 </h3>
@@ -70,8 +81,12 @@
     <div class="texto">
     <p>Precio = 40.000$</p>
     </div>
-    <br>
-    <button class="boton2">Comprar o añadir al carrito</button>
+    <div class="card-button">
+    <button class="btn-rest">-</button>
+    <input type="number" value="1" min="1" class="quantity-input" />
+    <button class="btn-sum">+</button>
+    </div>
+    <button class="btn-add">Comprar o añadir al carrito</button>
 <br><br>
 <div class="footer" style="background-image: url('../Elementos/D_NQ_NP_988449-MLA51577257247_092022-O.webp')">
 <footer>
@@ -86,5 +101,6 @@
    window.location.href = '../public_page/login.html'; 
  });
 </script>
+<script type="module" src="./items.js"></script>
 </body>
 </html>
